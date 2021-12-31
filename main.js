@@ -131,7 +131,6 @@ function findMostRelated (arrSpecimens) {
   return mostPercentOfMostRelated; // an array of 3 elemnt arrays (specimen, specimen compered, percentual of similarity)
 }
 
-
 // Function to create an array with objects pAequorFactory(). Parameter is the number of objects you want.
 function createArrSpec (qtt) { 
   let instancesAequor = [];
@@ -184,4 +183,3 @@ console.log (`The specimen1's dna after mutation is \n${specimen1.dna} \nand its
 console.log ('\n--------------------------\n');
 console.log ('The most related that have the max percentage\n[specimen, specimen compared, percentual of similarty]');
 console.log (findMostRelated (specAbleSurv));
- 
